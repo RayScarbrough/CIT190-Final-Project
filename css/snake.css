@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+}
+body {
+  background: repeat linear-gradient(45deg, #202020, #080808);
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(33, 34, 51, 0.9);
+}
+h1 {
+  font-size: 5em;
+  color: #ffffff;
+  font-style: italic;
+  font-family: "Madimi One", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#home {
+  font-size: 3.5em;
+  margin-right: auto;
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+#home:hover {
+  font-size: 3.5em;
+  margin-right: auto;
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+  background-color: rgba(65, 67, 100, 0.9);
+  border-radius: 0.1em;
+  border: 2px solid white;
+}
+.spacer {
+  flex: 1;
+}
+#readMe {
+  color: #651af0;
+  font-size: 2rem;
+  position: relative;
+  align-self: flex-end;
+  margin-top: 10px;
+  text-decoration: none;
+  font-family: "Madimi One", sans-serif;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  font-size: 3rem;
+  color: #651af0;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+  font-style: italic;
+  font-family: "Madimi One", sans-serif;
+}
+
+#snakeContainer {
+  text-align: center;
+
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#snakeBoard {
+  border: 4px solid #ffffff;
+  border-radius: 10px;
+}
+#scoreText {
+  color: #fff;
+}
+#restart {
+  font-size: 2em;
+  margin: 20px;
+  padding: 10px 30px 10px 30px;
+  border: 3px, solid black;
+  background: linear-gradient(45deg, #8f5deb, #651af0);
+  color: #fff;
+  border-radius: 3em;
+}
+
+#scorecontainer {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: 3em;
+  text-shadow: none;
+}
+#description {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: white;
+  font-size: 1.5em;
+  margin: 40px;
+}
+#aboutGame {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+  padding: 10px;
+  color: #fff;
+  background: none;
+}
