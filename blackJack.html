@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blackjack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="css/blackJack.css" />
+  </head>
+  <header>
+    <a
+      href="home.html"
+      id="home"
+      class="material-symbols-outlined"
+      title="Return to Home page"
+    >
+      home
+    </a>
+    <div class="spacer"></div>
+    <h1>Clueless Games</h1>
+    <a id="readMe" href="ReadMeBlackJack.html" class="readme-link">Read me!</a>
+    <div class="spacer"></div>
+  </header>
+  <body>
+    <h2>Blackjack</h2>
+    <div id="gameArea">
+      <div id="dealerScore">Dealer's Score: 0</div>
+      <div id="dealerCards" class="cards"></div>
+      <div id="playerScore">Player's Score: 0</div>
+      <div id="playerCards" class="cards"></div>
+      <div id="controls">
+        <button id="hitButton" disabled>Hit</button>
+        <button id="standButton" disabled>Stand</button>
+        <button id="betButton">Place Bet</button>
+        <button id="newGameButton">New Game</button>
+        <div id="balanceDisplay">Balance: $500</div>
+        <div id="betDisplay">
+          Bet Amount:
+          <input
+            type="number"
+            id="betAmount"
+            min="50"
+            placeholder="Minimum bet $50"
+          />
+        </div>
+      </div>
+      <div id="result"></div>
+    </div>
+    <div class="button-container"></div>
+    <div>
+      <h2 id="aboutGame">About the game</h2>
+    </div>
+    <div id="description">
+      <p>
+        Developer: RJ Scarbrough
+        <br />
+        Year released: 2024
+        <br />
+        Genre: Table Games
+        <br />
+        Single Player
+      </p>
+    </div>
+    <footer>RJ Scarbrough 2024</footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/blackJack.js"></script>
+</html>
